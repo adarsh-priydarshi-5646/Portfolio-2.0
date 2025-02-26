@@ -8,7 +8,7 @@ import Achievements from './components/Achievements';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Chatbot from './components/Chatbot';
-import RoboAssistant from './components/RoboAssistant';
+// import RoboAssistant from './components/RoboAssistant';
 import { Toaster } from 'react-hot-toast';
 
 function App() {
