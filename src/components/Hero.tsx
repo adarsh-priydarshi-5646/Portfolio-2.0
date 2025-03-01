@@ -137,9 +137,11 @@ const Hero = () => {
               View My Work
               <ArrowRight size={20} />
             </motion.a>
+           
             <motion.a
-              href="/Resume-Adarsh Priydarshi (1).pdf"
-              download="Resume-Adarsh_Priydarshi.pdf"
+              href="/Resume-Adarsh_Priydarshi.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-full flex items-center gap-2 hover:bg-blue-600 hover:text-white transition-all backdrop-blur-sm"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -147,7 +149,7 @@ const Hero = () => {
               Download Resume
               <Download size={20} />
             </motion.a>
-          </motion.div>
+
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
