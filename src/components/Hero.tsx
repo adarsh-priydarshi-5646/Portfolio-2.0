@@ -155,10 +155,10 @@ const Hero = () => {
             className="flex justify-center gap-6"
           >
             {[
-              { icon: Github, href: "https://github.com/yourusername", title: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com/in/yourusername", title: "LinkedIn" },
-              { icon: Code2, href: "https://leetcode.com/yourusername", title: "LeetCode" },
-              { icon: Award, href: "https://codeforces.com/profile/yourusername", title: "Codeforces" }
+              { icon: Github, href: "https://github.com/adarsh-priydarshi-5646", title: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/adarsh-priydarshi-536430316/", title: "LinkedIn" },
+              { icon: Code2, href: "https://leetcode.com/u/adrsh__priydarshi/", title: "LeetCode" },
+              { icon: Award, href: "https://www.codechef.com/users/priydarshi5646", title: "Codeforces" }
             ].map((social, index) => (
               <motion.a
                 key={index}
