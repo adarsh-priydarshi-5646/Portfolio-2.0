@@ -49,8 +49,8 @@ const Contact = () => {
 
     try {
       const result = await emailjs.send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_8i35t7h',
+        'template_j827lsw',
         {
           from_name: formData.name,
           from_email: formData.email,
@@ -58,7 +58,7 @@ const Contact = () => {
           message: formData.message,
           to_email: 'adarshpriydarshi5646@gmail.com',
         },
-        'YOUR_PUBLIC_KEY'
+        'srfX5spJW8BWfCQGT'
       );
 
       if (result.status === 200) {
