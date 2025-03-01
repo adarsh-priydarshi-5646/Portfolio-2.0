@@ -140,8 +140,6 @@ const Hero = () => {
            
             <motion.a
               href="/Resume-Adarsh_Priydarshi.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
               className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-full flex items-center gap-2 hover:bg-blue-600 hover:text-white transition-all backdrop-blur-sm"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
