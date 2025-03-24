@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Chatbot AI',
     description: 'An intelligent chatbot powered by machine learning for automated customer support.',
-    techStack: ['Python', 'TensorFlow', 'Flask', 'React'],
+    techStack: ['HTML', 'TailWind', 'TypeScript', 'React'],
     category: 'AI/ML',
     features: [
       'Natural Language Processing',
@@ -19,14 +19,14 @@ const projects = [
       'Training with limited data',
       'Optimizing response time',
     ],
-    github: 'https://github.com/yourusername/chatbot-ai',
-    demo: 'https://demo-url.com',
+    github: 'https://github.com/adarsh-priydarshi-5646/HelpMate-2.0.git',
+    demo: 'https://helpmate-2.netlify.app/',
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800',
   },
   {
     title: 'Sifra (Virtual Assistant)',
     description: 'A personal virtual assistant with voice recognition and task automation capabilities.',
-    techStack: ['Python', 'Speech Recognition', 'PyQt'],
+    techStack: ['JavaScript', 'Speech Recognition', 'HtML/CSS'],
     category: 'AI/ML',
     features: [
       'Voice commands',
@@ -39,14 +39,14 @@ const projects = [
       'Creating natural responses',
       'System integration',
     ],
-    github: 'https://github.com/yourusername/sifra',
-    demo: 'https://demo-url.com',
+    github: 'https://github.com/adarsh-priydarshi-5646/Shifra---My-virtual-assistant.git',
+    demo: 'https://shifra-your-virtual-assistant.netlify.app/',
     image: 'https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=800',
   },
   {
     title: 'KM Computers',
     description: 'A full-stack e-commerce website for a computer hardware store.',
-    techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
+    techStack: ['React', 'Tailwind', 'TypeScript', 'SupaBase'],
     category: 'Full-Stack',
     features: [
       'Product catalog',
@@ -59,29 +59,9 @@ const projects = [
       'Real-time inventory',
       'Performance optimization',
     ],
-    github: 'https://github.com/yourusername/km-computers',
-    demo: 'https://demo-url.com',
+    github: 'https://github.com/adarsh-priydarshi-5646/KM---Computers-2.0.git',
+    demo: 'https://kmcomputers.netlify.app/',
     image: 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&q=80&w=800',
-  },
-  {
-    title: 'Quiz Website',
-    description: 'An interactive quiz platform with real-time scoring and leaderboards.',
-    techStack: ['React', 'Firebase', 'Tailwind CSS'],
-    category: 'Full-Stack',
-    features: [
-      'Multiple quiz categories',
-      'Real-time scoring',
-      'Leaderboards',
-      'User profiles',
-    ],
-    challenges: [
-      'Real-time updates',
-      'Score calculation',
-      'User experience',
-    ],
-    github: 'https://github.com/yourusername/quiz-website',
-    demo: 'https://demo-url.com',
-    image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?auto=format&fit=crop&q=80&w=800',
   },
 ];
 
