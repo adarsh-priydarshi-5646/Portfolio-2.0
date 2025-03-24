@@ -29,6 +29,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-blue-900/20 dark:to-purple-900/20">
+      
       {/* Magical floating particles */}
       <div className="absolute inset-0 overflow-hidden">
         {[...Array(20)].map((_, i) => (
@@ -83,6 +84,7 @@ const Hero = () => {
         ))}
       </div>
 
+      {/* Main Content */}
       <div className="container mx-auto px-4 z-10">
         <div className="text-center">
           <motion.div
@@ -122,6 +124,7 @@ const Hero = () => {
             </p>
           </motion.div>
 
+          {/* Buttons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -137,7 +140,7 @@ const Hero = () => {
               View My Work
               <ArrowRight size={20} />
             </motion.a>
-           
+
             <motion.a
               href="/Resume-Adarsh_Priydarshi.pdf"
               className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 rounded-full flex items-center gap-2 hover:bg-blue-600 hover:text-white transition-all backdrop-blur-sm"
@@ -147,8 +150,9 @@ const Hero = () => {
               Download Resume
               <Download size={20} />
             </motion.a>
+          </motion.div>
 
-
+          {/* Social Icons */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -176,21 +180,6 @@ const Hero = () => {
             ))}
           </motion.div>
         </div>
-      </div>
-
-      {/* Animated gradient border */}
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
-        <motion.div
-          className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600"
-          animate={{
-            x: ['-100%', '100%'],
-          }}
-          transition={{
-            duration: 3,
-            repeat: Infinity,
-            ease: "linear"
-          }}
-        />
       </div>
     </section>
   );
