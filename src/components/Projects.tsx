@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Chatbot AI',
     description: 'An intelligent chatbot powered by machine learning for automated customer support.',
-    techStack: ['HTML', 'TailWind', 'TypeScript', 'React'],
+    techStack: ['HTML', 'Tailwind CSS', 'TypeScript', 'React', 'API'],
     category: 'AI/ML',
     features: [
       'Natural Language Processing',
@@ -26,7 +26,7 @@ const projects = [
   {
     title: 'Sifra (Virtual Assistant)',
     description: 'A personal virtual assistant with voice recognition and task automation capabilities.',
-    techStack: ['JavaScript', 'Speech Recognition', 'HtML/CSS'],
+    techStack: ['JavaScript', 'Speech Recognition', 'HTML/CSS'],
     category: 'AI/ML',
     features: [
       'Voice commands',
@@ -46,7 +46,7 @@ const projects = [
   {
     title: 'KM Computers',
     description: 'A full-stack e-commerce website for a computer hardware store.',
-    techStack: ['React', 'Tailwind', 'TypeScript', 'SupaBase'],
+    techStack: ['React', 'Tailwind CSS', 'TypeScript', 'SupaBase'],
     category: 'Full-Stack',
     features: [
       'Product catalog',
