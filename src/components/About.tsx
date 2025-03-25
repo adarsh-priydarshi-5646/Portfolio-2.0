@@ -42,7 +42,7 @@ const About = () => {
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-4">Who I Am</h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I'm Adarsh Priydarsi, currently in my first year of B.Tech in CSE (AI & ML) at 
+                I'm Adarsh Priydarshi, currently in my first year of B.Tech in CSE (AI & ML) at 
                 Newton School of Technology, ADYPU. My passion lies in AI, Machine Learning, and 
                 developing full-stack web applications. I believe in the power of technology to 
                 transform lives and solve real-world challenges.
