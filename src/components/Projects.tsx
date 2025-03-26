@@ -63,6 +63,26 @@ const projects = [
     demo: 'https://kmcomputers.netlify.app/',
     image: 'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&q=80&w=800',
   },
+  {
+    title: 'Personal Portfolio',
+    description: 'A personal portfolio website showcasing my skills, projects, and experience in AI/ML and full-stack development. It serves as a digital resume with an interactive UI and smooth animations.',
+    techStack: ['React', 'Tailwind CSS', 'TypeScript', 'SupaBase'],
+    category: 'Full-Stack',
+    features: [
+      'Dynamic Typing Animation – Engaging hero section with a magical typing effect.',
+      'Project Showcase – Well-structured display of my AI/ML and web development projects.',
+      'Resume & Contact – Easy access to my resume and direct contact form submissions.',
+      'Responsive & Fast – Optimized for performance and mobile-friendliness.',
+    ],
+    challenges: [
+      'Smooth Animations – Used Framer Motion and optimized performance for seamless effects.',
+      'Contact Form Integration – Ensured secure email submissions with Supabase.',
+      'Performance optimization',
+    ],
+    github: 'https://github.com/adarsh-priydarshi-5646/Portfolio-2.0.git',
+    demo: 'https://adarsh-priydarshi.vercel.app/',
+    image: 'https://media.www.kent.ac.uk/se/20823/portfolio-banner_1920w.jpg',
+  },
 ];
 
 const ProjectCard = ({ project }) => {
