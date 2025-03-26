@@ -78,8 +78,8 @@ const Achievements = () => {
     icon: Trophy,
     description: 'Consistently solving complex algorithmic problems across multiple platforms.',
     stats: [
-      { label: 'HackerRank (Problem Solving)', value: '3⭐' },
-      { label: 'HackerRank (Python)', value: '4⭐' },
+      { label: 'HackerRank (Problem Solving)', value: '2⭐' },
+      { label: 'HackerRank (Python)', value: '3⭐' },
       { label: 'CodeChef Rating', value: '1⭐' },
       { label: 'Codeforces Rating', value: '550+' },
     ],
