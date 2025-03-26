@@ -80,7 +80,7 @@ const Achievements = () => {
     stats: [
       { label: 'HackerRank (Problem Solving)', value: '3⭐' },
       { label: 'HackerRank (Python)', value: '4⭐' },
-      { label: 'CodeChef Rating', value: '2⭐' },
+      { label: 'CodeChef Rating', value: '1⭐' },
       { label: 'Codeforces Rating', value: '550+' },
     ],
   };
