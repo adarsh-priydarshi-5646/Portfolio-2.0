@@ -65,7 +65,7 @@ const projects = [
   },
   {
     title: 'Personal Portfolio',
-    description: 'A personal portfolio website showcasing my skills, projects, and experience in AI/ML and full-stack development. It serves as a digital resume with an interactive UI and smooth animations.',
+    description: 'A personal portfolio website showcasing my skills, projects, in AI/ML and full-stack development.',
     techStack: ['React', 'Tailwind CSS', 'TypeScript', 'SupaBase'],
     category: 'Full-Stack',
     features: [
